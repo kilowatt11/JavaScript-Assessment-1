@@ -65,3 +65,9 @@ var crayola1990 = [
  * take advantage of the methods available on stings http://www.w3schools.com/js/js_string_methods.asp
  * there are multiple ways to do something like this but you might consider using split and join
  */ 
+
+var crayolaNew = [];
+for (var index = 0; index < crayola1990.length; index++) {
+    crayolaNew.push(crayola1990[index].split(" ").join("-").toLowerCase());
+}
+    console.log(crayolaNew);

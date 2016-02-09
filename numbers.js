@@ -2,7 +2,7 @@
 var num10 = 10;
 var string8 = '8';
 var one = 1;
-console.log(num10 + parseInt(string8) + one);
+console.log(num10 + parseInt(string8,10) + one);
 
 
 
